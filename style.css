@@ -94,3 +94,167 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+* {
+  /* padding: 5; */
+  box-sizing: border-box;
+  /* marin: 0; */
+}
+.content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.bg {
+  color: white;
+  background-color: black;
+}
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+/* canvas {
+  display: block;
+  vertical-align: bottom;
+} ---- particles.js container ---- */
+#particles-js {
+  /* position: abs; */
+  width: 100%;
+  height: 40vh;
+  background-color: #161819;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* final */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway&family=Roboto:wght@300;400&display=swap');
+
+ html {
+  height: 100vh;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box
+}
+
+body{
+  background-color: black;
+
+}
+.anim {
+  width: 100%;
+  height:35vh;
+  background: #161616;
+  
+}
+.logo{
+  z-index: -1;
+  height: 170px;
+  align-content: center;
+  margin-top: 6vh; 
+  /* padding-top: 2.5em; */
+}
+.two{
+  height: 60vh;
+}
+.gif{
+  height: 30%;
+  min-height: 180px;
+  margin: 3em 0 3em;
+  background-color: black;
+  padding: 4px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrap{
+  height: 70%;
+  display: flex;
+  background-color: black;
+  margin-top:10em;
+  
+}
+.content{
+  padding-left: 7em; 
+  height: 50%;
+  color: white;
+  background-color: black;
+  width: 75%;
+}
+.qrcode{
+  padding-left:7em;
+ 
+  
+}
+.gif-size{
+  
+  height: 60px;
+  width: 60px;
+  /* width: 0%; */
+  align-content: center;
+  /* margin-bottom: 3em; */
+
+
+}
+
+.gif-size2{
+  
+  height: 60px;
+  width: 60px;
+  /* width: 0%; */
+  align-content: center;
+  
+  
+
+}
+
+
+.gif-size {
+		-webkit-animation: rotation 7s infinite linear;
+	height:60px;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.GIF-size{
+
+  border-radius: 50%;
+  height: 170px;
+  /* width: 170px; */
+
+}
+h2{
+   color: white;
+   font-size: -webkit-xxx-large;
+   margin: auto;
+   padding: 4px;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.info{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.para{
+  margin-top:5vh;
+  font-size:larger;
+  font-family: 'Roboto', sans-serif;
+}
+
+.qr{
+  height:150px;
+/* width: 150px */
+}
